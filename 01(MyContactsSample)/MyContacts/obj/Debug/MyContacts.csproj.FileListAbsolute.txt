@@ -1,0 +1,12 @@
+D:\toplearn\New folder\MyContacts\MyContacts\bin\Debug\MyContacts.exe.config
+D:\toplearn\New folder\MyContacts\MyContacts\bin\Debug\MyContacts.exe
+D:\toplearn\New folder\MyContacts\MyContacts\bin\Debug\MyContacts.pdb
+D:\toplearn\New folder\MyContacts\MyContacts\obj\Debug\MyContacts.csproj.AssemblyReference.cache
+D:\toplearn\New folder\MyContacts\MyContacts\obj\Debug\MyContacts.Properties.Resources.resources
+D:\toplearn\New folder\MyContacts\MyContacts\obj\Debug\MyContacts.csproj.GenerateResource.cache
+D:\toplearn\New folder\MyContacts\MyContacts\obj\Debug\MyContacts.csproj.CoreCompileInputs.cache
+D:\toplearn\New folder\MyContacts\MyContacts\obj\Debug\MyContacts.exe
+D:\toplearn\New folder\MyContacts\MyContacts\obj\Debug\MyContacts.pdb
+D:\toplearn\New folder\MyContacts\MyContacts\obj\Debug\MyContacts.exe.config
+D:\toplearn\New folder\MyContacts\MyContacts\obj\Debug\MyContacts.Form1.resources
+D:\toplearn\New folder\MyContacts\MyContacts\obj\Debug\MyContacts.frmAddOrEdit.resources
