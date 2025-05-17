@@ -1,0 +1,8 @@
+D:\Project\New folder\Linq_example\bin\Debug\Linq_example.exe.config
+D:\Project\New folder\Linq_example\bin\Debug\Linq_example.exe
+D:\Project\New folder\Linq_example\bin\Debug\Linq_example.pdb
+D:\Project\New folder\Linq_example\obj\Debug\Linq_example.csproj.AssemblyReference.cache
+D:\Project\New folder\Linq_example\obj\Debug\Linq_example.csproj.CoreCompileInputs.cache
+D:\Project\New folder\Linq_example\obj\Debug\Linq_example.exe
+D:\Project\New folder\Linq_example\obj\Debug\Linq_example.pdb
+D:\Project\New folder\Linq_example\obj\Debug\Linq_example.exe.config
