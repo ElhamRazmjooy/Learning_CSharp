@@ -6,3 +6,11 @@ D:\Project\New folder\Linq_example2\obj\Debug\Linq_example2.csproj.CoreCompileIn
 D:\Project\New folder\Linq_example2\obj\Debug\Linq_example2.exe
 D:\Project\New folder\Linq_example2\obj\Debug\Linq_example2.pdb
 D:\Project\New folder\Linq_example2\obj\Debug\Linq_example2.exe.config
+D:\Project\C#\Learning C#\02(TopLearnSample)\Linq_Example2\bin\Debug\Linq_example2.exe.config
+D:\Project\C#\Learning C#\02(TopLearnSample)\Linq_Example2\bin\Debug\Linq_example2.exe
+D:\Project\C#\Learning C#\02(TopLearnSample)\Linq_Example2\bin\Debug\Linq_example2.pdb
+D:\Project\C#\Learning C#\02(TopLearnSample)\Linq_Example2\obj\Debug\Linq_Example2.csproj.AssemblyReference.cache
+D:\Project\C#\Learning C#\02(TopLearnSample)\Linq_Example2\obj\Debug\Linq_example2.exe.config
+D:\Project\C#\Learning C#\02(TopLearnSample)\Linq_Example2\obj\Debug\Linq_Example2.csproj.CoreCompileInputs.cache
+D:\Project\C#\Learning C#\02(TopLearnSample)\Linq_Example2\obj\Debug\Linq_example2.exe
+D:\Project\C#\Learning C#\02(TopLearnSample)\Linq_Example2\obj\Debug\Linq_example2.pdb

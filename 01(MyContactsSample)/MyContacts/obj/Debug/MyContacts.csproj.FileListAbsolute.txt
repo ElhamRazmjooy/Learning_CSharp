@@ -10,3 +10,34 @@ D:\toplearn\New folder\MyContacts\MyContacts\obj\Debug\MyContacts.pdb
 D:\toplearn\New folder\MyContacts\MyContacts\obj\Debug\MyContacts.exe.config
 D:\toplearn\New folder\MyContacts\MyContacts\obj\Debug\MyContacts.Form1.resources
 D:\toplearn\New folder\MyContacts\MyContacts\obj\Debug\MyContacts.frmAddOrEdit.resources
+D:\Project\C#\Learning C#\01(MyContactsSample)\MyContacts\bin\Debug\MyContacts.exe.config
+D:\Project\C#\Learning C#\01(MyContactsSample)\MyContacts\bin\Debug\MyContacts.exe
+D:\Project\C#\Learning C#\01(MyContactsSample)\MyContacts\bin\Debug\MyContacts.pdb
+D:\Project\C#\Learning C#\01(MyContactsSample)\MyContacts\obj\Debug\MyContacts.csproj.AssemblyReference.cache
+D:\Project\C#\Learning C#\01(MyContactsSample)\MyContacts\obj\Debug\MyContacts.exe.config
+D:\Project\C#\Learning C#\01(MyContactsSample)\MyContacts\obj\Debug\MyContacts.Form1.resources
+D:\Project\C#\Learning C#\01(MyContactsSample)\MyContacts\obj\Debug\MyContacts.frmAddOrEdit.resources
+D:\Project\C#\Learning C#\01(MyContactsSample)\MyContacts\obj\Debug\MyContacts.Properties.Resources.resources
+D:\Project\C#\Learning C#\01(MyContactsSample)\MyContacts\obj\Debug\MyContacts.csproj.GenerateResource.cache
+D:\Project\C#\Learning C#\01(MyContactsSample)\MyContacts\obj\Debug\MyContacts.csproj.CoreCompileInputs.cache
+D:\Project\C#\Learning C#\01(MyContactsSample)\MyContacts\obj\Debug\MyContacts.exe
+D:\Project\C#\Learning C#\01(MyContactsSample)\MyContacts\obj\Debug\MyContacts.pdb
+D:\Project\New folder\New folder2\01(MyContactsSample)\MyContacts\obj\Debug\MyContacts.csproj.AssemblyReference.cache
+D:\Project\New folder\New folder2\01(MyContactsSample)\MyContacts\obj\Debug\MyContacts.Form1.resources
+D:\Project\New folder\New folder2\01(MyContactsSample)\MyContacts\obj\Debug\MyContacts.frmAddOrEdit.resources
+D:\Project\New folder\New folder2\01(MyContactsSample)\MyContacts\obj\Debug\MyContacts.Properties.Resources.resources
+D:\Project\New folder\New folder2\01(MyContactsSample)\MyContacts\obj\Debug\MyContacts.csproj.GenerateResource.cache
+D:\Project\New folder\New folder2\01(MyContactsSample)\MyContacts\obj\Debug\MyContacts.csproj.CoreCompileInputs.cache
+D:\Project\New folder\New folder2\01(MyContactsSample)\MyContacts\bin\Debug\MyContacts.exe.config
+D:\Project\New folder\New folder2\01(MyContactsSample)\MyContacts\bin\Debug\MyContacts.exe
+D:\Project\New folder\New folder2\01(MyContactsSample)\MyContacts\bin\Debug\MyContacts.pdb
+D:\Project\New folder\New folder2\01(MyContactsSample)\MyContacts\bin\Debug\EntityFramework.dll
+D:\Project\New folder\New folder2\01(MyContactsSample)\MyContacts\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project\New folder\New folder2\01(MyContactsSample)\MyContacts\bin\Debug\Newtonsoft.Json.dll
+D:\Project\New folder\New folder2\01(MyContactsSample)\MyContacts\bin\Debug\EntityFramework.xml
+D:\Project\New folder\New folder2\01(MyContactsSample)\MyContacts\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project\New folder\New folder2\01(MyContactsSample)\MyContacts\bin\Debug\Newtonsoft.Json.xml
+D:\Project\New folder\New folder2\01(MyContactsSample)\MyContacts\obj\Debug\MyContacts.csproj.Up2Date
+D:\Project\New folder\New folder2\01(MyContactsSample)\MyContacts\obj\Debug\MyContacts.exe
+D:\Project\New folder\New folder2\01(MyContactsSample)\MyContacts\obj\Debug\MyContacts.pdb
+D:\Project\New folder\New folder2\01(MyContactsSample)\MyContacts\obj\Debug\MyContacts.exe.config

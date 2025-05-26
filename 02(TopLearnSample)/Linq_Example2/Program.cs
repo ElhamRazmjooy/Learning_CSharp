@@ -35,6 +35,7 @@ namespace Linq_example2
             {
                 Console.WriteLine($"ID: {p.PersonID} Name: {p.Name} Family: {p.Family} Age: {p.Age}");
             }
+
             List<PersonCar> Cars = new List<PersonCar>()
             {
                 new PersonCar() {PersonID = 1,CarName = "Pride",CarModel = "1386" },

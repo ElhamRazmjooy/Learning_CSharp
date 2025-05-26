@@ -1,0 +1,14 @@
+D:\Project\New folder\ControlStructure-Example\bin\Debug\net8.0\ControlStructure-Example.exe
+D:\Project\New folder\ControlStructure-Example\bin\Debug\net8.0\ControlStructure-Example.deps.json
+D:\Project\New folder\ControlStructure-Example\bin\Debug\net8.0\ControlStructure-Example.runtimeconfig.json
+D:\Project\New folder\ControlStructure-Example\bin\Debug\net8.0\ControlStructure-Example.dll
+D:\Project\New folder\ControlStructure-Example\bin\Debug\net8.0\ControlStructure-Example.pdb
+D:\Project\New folder\ControlStructure-Example\obj\Debug\net8.0\ControlStructure-Example.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\New folder\ControlStructure-Example\obj\Debug\net8.0\ControlStructure-Example.AssemblyInfoInputs.cache
+D:\Project\New folder\ControlStructure-Example\obj\Debug\net8.0\ControlStructure-Example.AssemblyInfo.cs
+D:\Project\New folder\ControlStructure-Example\obj\Debug\net8.0\ControlStructure-Example.csproj.CoreCompileInputs.cache
+D:\Project\New folder\ControlStructure-Example\obj\Debug\net8.0\ControlStructure-Example.dll
+D:\Project\New folder\ControlStructure-Example\obj\Debug\net8.0\refint\ControlStructure-Example.dll
+D:\Project\New folder\ControlStructure-Example\obj\Debug\net8.0\ControlStructure-Example.pdb
+D:\Project\New folder\ControlStructure-Example\obj\Debug\net8.0\ControlStructure-Example.genruntimeconfig.cache
+D:\Project\New folder\ControlStructure-Example\obj\Debug\net8.0\ref\ControlStructure-Example.dll

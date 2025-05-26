@@ -189,6 +189,5 @@ namespace Linq_example
             var res14 = Numbers3.OrderByDescending(n => n).Skip(3).ToArray();
             var res15 = Numbers3.OrderByDescending(n => n).Skip(3).Take(3).ToArray();
         }
-
     }
 }

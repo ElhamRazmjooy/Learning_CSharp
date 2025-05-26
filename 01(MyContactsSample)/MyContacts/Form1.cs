@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyContacts;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,11 +14,11 @@ namespace MyContacts
 {
     public partial class Form1 : Form
     {
-        IMyContacts repository;
+
         public Form1()
         {
             InitializeComponent();
-            repository = new MyContacts();
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -27,8 +28,11 @@ namespace MyContacts
 
         private void BindGrid()
         {
-            dgContacts.AutoGenerateColumns = false;
-            dgContacts.DataSource = repository.SelectAll();
+            using (Contact_DBEntities db = new Contact_DBEntities())
+            {
+                dgContacts.AutoGenerateColumns = false;
+                dgContacts.DataSource = db.MyContacts.ToList();
+            }
         }
 
         private void btnRefresh_Click(object sender, EventArgs e)
@@ -40,7 +44,7 @@ namespace MyContacts
         {
             frmAddOrEdit frm = new frmAddOrEdit();
             frm.ShowDialog();
-            if (frm.DialogResult == DialogResult.OK) 
+            if (frm.DialogResult == DialogResult.OK)
             {
                 BindGrid();
             }
@@ -48,33 +52,39 @@ namespace MyContacts
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            string Name = dgContacts.CurrentRow.Cells[1].Value.ToString();
-            string Family =dgContacts.CurrentRow.Cells [2].Value.ToString();
-            string Fullname = Name + " " + Family;
             if (dgContacts.CurrentRow != null)
             {
-                if (MessageBox.Show($"{Fullname} حذف شود؟", "توجه", MessageBoxButtons.YesNo) == DialogResult.Yes) 
+                string Name = dgContacts.CurrentRow.Cells[1].Value.ToString();
+                string Family = dgContacts.CurrentRow.Cells[2].Value.ToString();
+                string Fullname = Name + " " + Family;
+
+                if (MessageBox.Show($"{Fullname} حذف شود؟", "توجه", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
-                    int ContactID = int.Parse(dgContacts.CurrentRow.Cells [0].Value.ToString());   
-                    repository.delete(ContactID);
-                    BindGrid();
+                    int ContactID = int.Parse(dgContacts.CurrentRow.Cells[0].Value.ToString());
+                    using (Contact_DBEntities db = new Contact_DBEntities())
+                    {
+                        MyContact contact = db.MyContacts.Single(c => c.ContactID == ContactID);
+                        db.MyContacts.Remove(contact);
+                        db.SaveChanges();
+                    }
+                   BindGrid();
                 }
             }
-            else 
+            else
             {
-                MessageBox.Show("لطفاً یک شخص را انتخاب کنید","اخطار",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                MessageBox.Show("لطفاً یک شخص را انتخاب کنید", "اخطار", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            if (dgContacts.CurrentRow != null) 
+            if (dgContacts.CurrentRow != null)
             {
                 int contactID = int.Parse(dgContacts.CurrentRow.Cells[0].Value.ToString());
                 frmAddOrEdit frm = new frmAddOrEdit();
                 frm.contactID = contactID;
                 if (frm.ShowDialog() == DialogResult.OK)
-                { 
+                {
                     BindGrid();
                 }
             }
@@ -82,7 +92,11 @@ namespace MyContacts
 
         private void txtSearch_TextChanged(object sender, EventArgs e)
         {
-         dgContacts.DataSource =repository.Search(txtSearch.Text);
+            using (Contact_DBEntities db = new Contact_DBEntities())
+            {
+                dgContacts.DataSource = db.MyContacts.Where(c => c.Name.Contains(txtSearch.Text) || c.Family.Contains(txtSearch.Text)).ToList();
+            }
+
         }
     }
 }
